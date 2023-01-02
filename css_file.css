@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: RGB(248 245 242);
+}
+.heading{
+    /* border: 4px solid brown; */
+    display: flex;
+    padding: 1vh;
+    width: 100%;
+}
+
+.name{
+    /* border: 2px solid brown; */
+    margin: auto;
+}
+
+.logo{
+    border: 2px solid brown;
+}
+
+#greet1{
+    /* border: 3px solid green; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 37px;
+    height: 0px;
+    text-align: center;
+    width: 33.33%;
+    margin: 4vh auto;
+}
+#greet1:hover{
+    text-shadow: 0 2px 3px rgb(248, 85, 85);
+    cursor: pointer;
+}
+.box{
+    /* border: 5px solid red; */
+    width: 118vh;
+    height: 62vh;
+    padding: 2vh;
+    margin: 117px auto;
+    display: flex;
+    background-image: url('pic5_1.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5vh;
+    box-shadow: 2px 4px 12px 4px rgba(0, 0, 0, 0.2);
+}
+.box:hover{
+    width:  855px;
+    height:  450px;
+    box-shadow: 2px 4px 12px 1px rgba(0, 0, 0, 0.2);
+}
+
+#time{
+    /* border: 3px solid green; */
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 61px;
+    width: 33.33%;
+    height: 20%;
+    background: transparent;
+}
+
+#time:hover{
+    color: rgb(254,97,96);
+    font-size: 63px;
+    transition-duration: 100ms;
+    opacity: 0.89;
+    cursor: pointer;
+}
+#date{
+    /* border: 3px solid green; */
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 23px;
+    width: 33.33%;
+    height: 6%;
+    background: transparent;
+    cursor: pointer;
+}
+#date:hover{
+    color: rgb(254,97,96);
+    font-size: 25px;
+    transition-duration: 100ms;
+    opacity: 0.89;
+}
+/* #greet1{
+    border: 3px solid green;
+    text-align: center;
+    width: 33.33%;
+    height: 20%;
+    align-self: end;
+    background: transparent;
+} */
