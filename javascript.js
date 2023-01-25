@@ -1,11 +1,8 @@
 //welcome box
-var nam = prompt("Welcome to Digital Clock :)\nWhat is your name?");
-
-
 if(screen.width <800 || screen.height <700){
     alert("Please opted to window site, for better experince.");
 }
-
+var nam = prompt("Welcome to Digital Clock :)\nWhat is your name?");
 
 //The time
 setInterval(() => {
