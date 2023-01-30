@@ -1,8 +1,11 @@
 //welcome box
+//var nam = prompt("Welcome to Digital Clock :)\nWhat is your name?");
+
+
 if(screen.width <800 || screen.height <700){
     alert("Please opted to window site, for better experince.");
 }
-var nam = prompt("Welcome to Digital Clock :)\nWhat is your name?");
+
 
 //The time
 setInterval(() => {
@@ -31,20 +34,20 @@ document.getElementById("date").innerHTML = dat;
 //Greetings
 let gret;
 
-if(d.getHours()>=0 && d.getHours()<5){
+/*if(d.getHours()>=0 && d.getHours()<5){
     gret="'Sleep Its Too late! " + nam + " ji '";
-}
+}*/
 if(d.getHours()>=5 && d.getHours()<12){
-    gret="'Good Morning " + nam + " ji :)'";
+    gret="'Good Morning'";
 }
 if(d.getHours()>=12 && d.getHours()<16){
-    gret="'Good Afternoon " + nam + " ji :)'";
+    gret="'Good Afternoon'";
 }
 if(d.getHours()>=16 && d.getHours()<21){
-    gret="'Good Evening " + nam + " ji :)'";
+    gret="'Good Evening'";
 }
-if(d.getHours()>=21){
+/*if(d.getHours()>=21){
     gret="'Have a sweet dreams " + nam + " ji '";
-}
+}*/
 
 document.getElementById("greet").innerHTML = gret;
