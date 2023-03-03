@@ -46,8 +46,8 @@ if(d.getHours()>=12 && d.getHours()<16){
 if(d.getHours()>=16 && d.getHours()<21){
     gret="'Good Evening'";
 }
-/*if(d.getHours()>=21){
-    gret="'Have a sweet dreams " + nam + " ji '";
-}*/
+if(d.getHours()>=21){
+    gret="Digital Clock";
+}
 
 document.getElementById("greet").innerHTML = gret;
